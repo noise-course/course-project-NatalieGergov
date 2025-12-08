@@ -1,0 +1,4 @@
+## Feedback
+
+Can't find your submission so I'll assume it's the same one Longyang sent. 
+This is a solid reproduction-and-extension project with a clear plan. For the experiments, the two technical choices that will matter most are how you extract or select flow features from the NetML dataset, since VPN detection is very sensitive to which timing and size features are included, and how you evaluate model performance across different VPN types or configurations, because some VPN traces can look very similar to benign encrypted traffic. Also, be careful with overfitting to browser-specific features such as window sizes and such. Getting those details consistent will make your model comparisons much more meaningful.
